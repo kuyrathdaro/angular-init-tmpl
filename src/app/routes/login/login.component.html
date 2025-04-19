@@ -1,1 +1,53 @@
-
+<div id="webcrumbs">
+    <div
+        class="w-[400px] min-h-[600px] mx-auto bg-gradient-to-r from-neutral-50 to-gray-100 shadow-lg rounded-lg p-8 hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105">
+        <h1 class="text-4xl font-title text-center text-purple-600 mb-6 tracking-wide">Login</h1>
+        <form class="space-y-6">
+            <div class="space-y-1">
+                <label for="email" class="block text-lg font-medium">Email</label>
+                <div
+                    class="relative flex items-center border border-purple-300 bg-white rounded-md focus-within:ring-4 focus-within:ring-purple-300/50 focus-within:border-purple-500 transition-all duration-300">
+                    <span class="material-symbols-outlined text-purple-300 px-2 bg-white rounded-md">mail</span>
+                    <input id="email" type="email"
+                        class="w-full py-3 px-3 focus:outline-none focus:ring-0 focus:border-none rounded-md"
+                        placeholder="Your email" />
+                </div>
+            </div>
+            <div class="space-y-1">
+                <label for="password" class="block text-lg font-medium">Password</label>
+                <div
+                    class="relative flex items-center border border-purple-300 bg-white rounded-md focus-within:ring-4 focus-within:ring-purple-300/50 focus-within:border-purple-500 transition-all duration-300">
+                    <span class="material-symbols-outlined text-purple-300 px-2 bg-white rounded-md">lock</span>
+                    <input id="password" type="password"
+                        class="w-full py-3 px-3 focus:outline-none focus:ring-0 focus:border-none rounded-md"
+                        placeholder="Your password" />
+                </div>
+            </div>
+            <div class="text-orange-600 text-center">
+                <span class="text-sm fade-in">Error: Invalid email or password!</span>
+            </div>
+            <button type="submit"
+                class="w-full px-4 py-3 bg-purple-700 text-neutral-50 rounded-full hover:bg-purple-600 focus:bg-purple-800 transition-transform transform hover:scale-105 duration-300">
+                Login
+            </button>
+        </form>
+        <div class="mt-6 text-center space-y-4">
+            <button type="button"
+                class="w-full py-3 border border-gray-400 rounded-full flex items-center justify-center hover:bg-neutral-50 focus:bg-purple-100 transition-transform transform hover:scale-105 duration-300">
+                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google"
+                    class="w-[24px] h-[24px] mr-2 object-cover" />
+                Sign in with Google
+            </button>
+            <button type="button"
+                class="w-full py-3 border border-gray-400 rounded-full flex items-center justify-center hover:bg-neutral-50 focus:bg-purple-100 transition-transform transform hover:scale-105 duration-300">
+                <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"
+                    class="w-[24px] h-[24px] mr-2 object-cover" />
+                Sign in with GitHub
+            </button>
+            <a href="#" class="block text-sm text-purple-600 hover:underline">Forgot your password?</a>
+            <p class="text-sm mt-4">
+                Don&#x27;t have an account? <a href="#" class="text-purple-600 hover:underline">Create one</a>
+            </p>
+        </div>
+    </div>
+</div>
